@@ -1,0 +1,37 @@
+﻿<div class="panel-heading">
+    Comment panel
+</div>
+<form action="#" id="postNewComment">
+    <textarea required name="commentContent" class="form-control" placeholder="write a comment..." rows="3"></textarea>
+    <br>
+    <button class="btn btn-info pull-right">Post</button>
+</form>
+
+
+<script type="text/javascript">
+        var commentsForm = document.getElementById("postNewComment");
+        var ptd = "@Sitecore.Context.Item.ID";
+
+        commentsForm.addEventListener("submit", function (e) {
+            console.log("comment is posted");
+            e.preventDefault();
+
+            var commentData = { parentItemID: ptd,  dateTime: (new Date()).toISOString(), author: "Administrator", commentContent: e.target.commentContent.value };
+            console.log(commentData);
+
+            fetch("/api/Sitecore/Comments/CreateComment", {
+                method: "POST",
+                headers: { 'Content-type': 'application/json' },
+                body: JSON.stringify(commentData),
+            }).then(function (res) {
+                console.log(res);
+                return res.text();
+            }).then(function (data) {
+                var comments = document.getElementById("comments");
+                console.log(data);
+                comments.innerHTML = data;
+            });
+
+
+        });
+</script>

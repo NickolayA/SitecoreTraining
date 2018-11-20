@@ -1,0 +1,24 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model List<MySite.Models.Post>
+
+    <div class="container">
+        <div class="content" style="margin-top: 50px">
+            <div class="row">
+                @foreach (MySite.Models.Post item in Model)
+                {
+                    <div class="col-sm-4">
+                        <div class="card">
+                            @Html.Glass().RenderImage(post => post.Image, parameters: new { @class = "card-img-top rounded-circle mx-auto d-block", style = "width: 125px; height: 125px; " })
+                            <div class="card-body">
+                                <h5 class="card-title">@Html.Glass().Editable(post => post.Title)</h5>
+                                <p class="card-text">@Html.Glass().Editable(post => post.Body).Substring(0, 150)...</p>
+                                <a href="@item.UrlToPost" class="btn btn-primary">View details >></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+

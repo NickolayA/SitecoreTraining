@@ -1,0 +1,35 @@
+﻿@model MySite.Models.VenuesSearchResult
+
+<div class="col-9">
+    <div id="results">
+        @if (Model.SearchResults.Count > 0)
+        {
+        <p><span id="resultsCount"></span> @Model.TotalResultsCount</p>
+
+            foreach (var item in Model.SearchResults)
+            {
+                <img class="card-img-top" style="width: 750px; height: 300px;" src="@item.ImagePath" />
+                <div class="card-body">
+                    <h2 class="card-title">@item.Title</h2>
+                    
+                    <p class="card-text">Category: @item.Category</p>
+                    <p class="card-text">@(item.Tags != null ? "Tags: " + String.Join(", ", @item.Tags.ToArray()) : null)</p>
+                    <a href="@item.ItemUrl" class="btn btn-primary">@Sitecore.Globalization.Translate.Text("Show post")</a>
+                </div>
+            }
+
+            <ul class="pagination">
+                @for (var i = 1; i <= Model.TotalResultsCount / Model.ItemsPerPage + Math.Sign(Model.TotalResultsCount % Model.ItemsPerPage); i++)
+                {
+                    <li class="page-item"><a href="#" class="custom_pagination page-link ">@i</a></li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No results</p>
+        }
+
+    </div>
+</div>
+

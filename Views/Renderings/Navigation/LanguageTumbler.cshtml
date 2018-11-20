@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Sitecore.Globalization.Language>
+
+    <span class="nav-link">
+    @foreach(var lang in Model)
+    {
+        <a class="language-tumbler" href="?sc_lang=@lang.Name">@lang.Name.Split('-')[0]</a>
+    }
+    </span>

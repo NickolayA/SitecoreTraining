@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Sitecore.Data.Items.Item>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            @foreach (var item in Model)
+            {
+                if (@item["Show in navigation"] == "1")
+                {
+                    <li class="nav-item">
+                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(@item)" class="nav-link">
+                            @item["Show in navigation name"]
+                        </a>
+                    </li>
+                }
+            }
+            <li class="nav-item">
+                @Html.Sitecore().Placeholder("languagetumbler")
+            </li>
+        </ul>
+    </div>
+
+

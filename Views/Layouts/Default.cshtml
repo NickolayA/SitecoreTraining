@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content="@Html.Sitecore().Field("Keywords")" />
+    <meta name="description" content="@Html.Sitecore().Field("Description")" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/blog-home.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @Html.Sitecore().Placeholder("header")
+    </div>
+    <div class="container" style="margin-bottom: 300px; margin-top: 50px;">
+        @Html.Sitecore().Placeholder("body")
+    </div>
+    <div class="container">
+        @Html.Sitecore().Placeholder("footer")
+    </div>
+    
+    
+</body>
+</html>

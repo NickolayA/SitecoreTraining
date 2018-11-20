@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\reply.demo.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdditionFiles/postdata.txt">
+      <publishTime>11/19/2018 01:53:18</publishTime>
+    </File>
+    <File Include="App_Config/ConnectionStrings.config">
+      <publishTime>06/04/2018 06:06:38</publishTime>
+    </File>
+    <File Include="App_Config/Environment/Sitecore.PipelineProfiling.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/FieldTypes.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Icons.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/CacheContainers.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/DataFolder.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/EventHandler.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/ForwardingSecurityEvents.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/ja-JP.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/LiveMode.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/ScalabilitySettings.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/serializationevents.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Buckets.WarmupQueries.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.BulkDataProvider.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.ExcludeField.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Core.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Master.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Web.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.ExcludeField.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.Solr.SwitchOnRebuild.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.SolrCloud.SwitchOnRebuild.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ContentSearch.VerboseLogging.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ExperienceAnalytics.ReAggregation.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.ExperienceAnalytics.ReAggregation.Scheduling.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.HistoryEngine.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Messaging.MyFeature.Sql.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Owin.Authentication.Enabler.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Publishing.DedicatedInstance.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Publishing.EventQueueProvider.Async.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Publishing.Optimizations.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Publishing.Parallel.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Publishing.Recovery.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/Sitecore.Xdb.ReferenceData.ClientCache.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/SitecoreSettings.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/SiteDefinition.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/SwitchingManagers.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/WebDeploy.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Examples/XslExtension.config.example">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.CodeFirst.config.exclude">
+      <publishTime>11/20/2018 02:23:26</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.config">
+      <publishTime>11/20/2018 02:23:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
+      <publishTime>11/20/2018 02:23:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Friday.Solr.CustomConfiguration.config">
+      <publishTime>11/10/2018 15:00:37</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Friday.Solr.CustomIndex.config">
+      <publishTime>11/10/2018 23:10:39</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Friday.Solr.CustomIndex.Master.config">
+      <publishTime>11/10/2018 12:35:02</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Friday.Solr.CustomIndex.Web.config">
+      <publishTime>11/10/2018 12:34:30</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Glass.Mapper.Sc.ViewRender.config.exclude">
+      <publishTime>11/20/2018 02:23:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.MySite.Solr.CustomConfiguration.config">
+      <publishTime>11/19/2018 03:55:10</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.MySite.Solr.CustomIndex.config">
+      <publishTime>11/19/2018 03:55:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Sitecore.config">
+      <publishTime>11/20/2018 01:25:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Sitecore.NewPostCreationEventHandler.config">
+      <publishTime>11/20/2018 06:46:07</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Teams.Lucene.CustomIndex.config">
+      <publishTime>11/19/2018 04:13:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Z_CustomConfig/CustomRouteConfiguration.config">
+      <publishTime>11/07/2018 05:02:19</publishTime>
+    </File>
+    <File Include="App_Config/LanguageDefinitions.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Layers.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/MimeTypes.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Portraits.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Common.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Webdb.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Prototypes.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Security/Domains.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Security/GlobalRoles.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/AntiCSRFModule/Sitecore.AntiCsrf.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Buckets/Sitecore.Buckets.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CampaignCreator/Sitecore.Marketing.Campaigns.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CampaignCreator/Sitecore.Marketing.Campaigns.Services.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.Commands.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.Diagnostics.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.Interning.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.JSNLog.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.LanguageFallback.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.Media.RequestProtection.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.PipelineBased.ItemProvider.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.Processing.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/CMS.Core/Sitecore.WebDAV.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Contact.Enrichment.Services.Client/Sitecore.Contact.Enrichment.Services.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.DefaultIndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Core.ExcludeFields.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Master.ExcludeFields.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch.Azure/Sitecore.ContentSearch.Azure.Index.Web.ExcludeFields.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.DefaultConfigurations.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Lucene.Index.Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Lucene.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Lucene.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Solr.DefaultIndexConfiguration.config">
+      <publishTime>11/10/2018 12:18:24</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Solr.Index.Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Solr.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentSearch/Sitecore.ContentSearch.Solr.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.ApplicationDependencies.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Azure.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Client.RulePerformance.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.ExperienceEditor.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Intelligence.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Lucene.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Mvc.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.PreemptiveScreenshot.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Processing.Aggregation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Solr.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.Speak.Requests.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ContentTesting/Sitecore.ContentTesting.XConnect.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/DetectionServices.Location/Sitecore.CES.GeoIp.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/DetectionServices.Location/Sitecore.CES.GeoIp.LegacyLocation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/DeviceDetection.Client/Sitecore.CES.DeviceDetection.CheckInitialization.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/DeviceDetection.Client/Sitecore.CES.DeviceDetection.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.Providers.CustomSMTP.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.Providers.CustomSMTP.Sync.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.Providers.SparkPost.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.Providers.SparkPost.Sync.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EDS.SparkPost.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentDelivery.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentManagement.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentManagementPrimary.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentSearch.Azure.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentSearch.Lucene.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ContentSearch.Solr.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.Core.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.DependencyEvaluator.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.EmailProcessing.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ExperienceAnalytics.Aggregation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ExperienceAnalytics.Api.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ExperienceAnalytics.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ExperienceAnalytics.Reduce.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.ExperienceProfile.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.MessageHandling.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.Messaging.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.Reporting.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.UI.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.EmailExperience.XConnect.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.ExM.Framework.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/EmailExperience/Sitecore.ExM.Framework.ContentManagement.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Experience Editor/Sitecore.ExperienceEditor.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Experience Editor/Sitecore.ExperienceEditor.Speak.Requests.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Aggregation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.Reduce.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.StorageProviders.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceAnalytics/Sitecore.ExperienceAnalytics.WebAPI.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceContentManagement.Administration/Sitecore.ExperienceContentManagement.Administration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceExplorer/Sitecore.ExperienceExplorer.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceExplorer/Sitecore.ExperienceExplorer.Services.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceExplorer/Sitecore.ExperienceExplorer.Speak.Requests.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceForms/Sitecore.ExperienceForms.Analytics.Aggregation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceForms/Sitecore.ExperienceForms.Analytics.Tracking.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceForms/Sitecore.ExperienceForms.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceForms/Sitecore.ExperienceForms.Mvc.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceForms/Sitecore.ExperienceForms.Pipelines.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceProfile/Sitecore.ExperienceProfile.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceProfile/Sitecore.ExperienceProfile.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ExperienceProfile/Sitecore.ExperienceProfile.Reporting.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Azure.DomainsSearch.DefaultIndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Azure.DomainsSearch.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Azure.DomainsSearch.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Bundle.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Lucene.DomainsSearch.DefaultIndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Lucene.DomainsSearch.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Lucene.DomainsSearch.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Solr.DomainsSearch.DefaultIndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Solr.DomainsSearch.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Solr.DomainsSearch.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/FederatedExperienceManager/Sitecore.FXM.Speak.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ItemWebApi/Sitecore.ItemWebApi.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/LaunchPad/Sitecore.Speak.LaunchPad.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ListManagement/Sitecore.ListManagement.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ListManagement/Sitecore.ListManagement.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/ListManagement/Sitecore.ListManagement.Services.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Azure.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Azure.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Azure.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Lucene.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.Repositories.Solr.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Assets/Sitecore.Marketing.Definitions.MarketingAssets.RepositoriesCD.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Automation.ActivityDescriptors.Client/Sitecore.Marketing.Automation.ActivityDescriptors.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Automation.Client/Sitecore.Marketing.Automation.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Client/Sitecore.Marketing.Client.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.Xdb.ReferenceData/Sitecore.Marketing.Operations.Xdb.ReferenceData.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.Xdb.ReferenceData/Sitecore.Marketing.Taxonomy.Xdb.ReferenceData.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Azure.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Azure.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Azure.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Lucene.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Lucene.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Lucene.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.ReferenceData.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Search.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Solr.Index.Master.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Solr.Index.Web.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Solr.IndexConfiguration.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.Taxonomy.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.Marketing.TaxonomyCD.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Operations.xMgmt/Sitecore.MarketingCD.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Segmentation.xMgmt/Sitecore.Marketing.Segmentation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Channel/Sitecore.Analytics.Channel.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.Compatibility.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.ExcludeRobots.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.FieldTypes.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.Tracking.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.Tracking.Database.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Tracking/Sitecore.Analytics.Tracking.Model.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.MarketingAutomation.Locators/Sitecore.Xdb.MarketingAutomation.Locators.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.MarketingAutomation.Operations/Sitecore.Xdb.MarketingAutomation.OperationsClient.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.MarketingAutomation.Reporting/Sitecore.Xdb.MarketingAutomation.ReportingClient.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.MarketingAutomation.Tracking/Sitecore.Xdb.MarketingAutomation.Tracking.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.ReferenceData.Client/Sitecore.Xdb.ReferenceData.Client.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.ReferenceData.Core/Sitecore.Xdb.ReferenceData.Core.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.ReferenceData.Service/Sitecore.Xdb.ReferenceData.Service.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.ReferenceData.SqlServer/Sitecore.Xdb.ReferenceData.SqlServer.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.Xdb.Sql.Common/Sitecore.Xdb.Sql.Common.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Model.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Processing.Aggregation.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Processing.Aggregation.ProcessingPools.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Processing.Aggregation.Services.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Processing.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Processing.Services.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Analytics.Reporting.config">
+      <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Xdb.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Xdb.Processing.ContactMerge.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Xdb.Remote.Client.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Marketing.xDB/Sitecore.Xdb.Remote.Server.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Messaging/Sitecore.Messaging.Azure.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Messaging/Sitecore.Messaging.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Messaging/Sitecore.Messaging.SqlServer.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Messaging/Sitecore.TransientFaultHandling.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/MVC.DeviceSimulator/Sitecore.MVC.DeviceSimulator.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/MVC.ExperienceEditor/Sitecore.MVC.ExperienceEditor.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Mvc/Sitecore.Mvc.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Owin.Authentication/Sitecore.Owin.Authentication.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Owin/Sitecore.Owin.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.Client.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.Processing.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.RemoteClient.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.Services.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/PathAnalyzer/Sitecore.PathAnalyzer.Services.RemoteServer.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Services.Client/Sitecore.Content.Services.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Services.Client/Sitecore.Services.Client.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Speak.Applications/Sitecore.Speak.Applications.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK.Components/Sitecore.Speak.Components.AntiCsrf.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK.Components/Sitecore.Speak.Components.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK.Components/Sitecore.Speak.Components.Mvc.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Speak.Integration/Sitecore.Speak.Integration.Services.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Speak.Integration/Sitecore.Speak.Integration.Spa.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.AntiCsrf.SheerUI.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.ContentSearch.Lucene.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.ContentSearch.Solr.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.ItemWebApi.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.Mvc.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/SPEAK/Sitecore.Speak.Pipelines.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Tracking.Web.MVC/Sitecore.MvcAnalytics.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Tracking.Web.RobotDetection/Sitecore.Analytics.Tracking.RobotDetection.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/Update/Sitecore.Update.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/UpdateCenter/Sitecore.UpdateCenter.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/Sitecore/XConnect.Client.Configuration/Sitecore.XConnect.Client.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Config/XamlSharp.config">
+      <publishTime>06/04/2018 06:05:52</publishTime>
+    </File>
+    <File Include="App_Start/RouteConfig.cs">
+      <publishTime>11/07/2018 04:09:46</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>11/06/2014 02:14:08</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.dll">
+      <publishTime>12/19/2017 14:33:58</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.dll">
+      <publishTime>12/19/2017 14:33:58</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
+      <publishTime>12/19/2017 14:34:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>06/22/2016 09:14:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/MySite.dll">
+      <publishTime>11/20/2018 08:16:45</publishTime>
+    </File>
+    <File Include="bin/MySite.pdb">
+      <publishTime>11/20/2018 08:16:45</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>05/30/2018 22:33:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.dll">
+      <publishTime>05/30/2018 22:33:18</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.Solr.dll">
+      <publishTime>05/30/2018 22:33:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>05/30/2018 07:03:38</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.Analytics.dll">
+      <publishTime>06/03/2018 21:32:30</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>03/28/2018 06:39:54</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Primitives.dll">
+      <publishTime>07/22/2015 23:07:30</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.TypeConverter.dll">
+      <publishTime>07/22/2015 23:07:32</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.dll">
+      <publishTime>06/11/2016 23:14:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="Content/blog-home.css">
+      <publishTime>10/29/2018 14:00:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>10/29/2018 14:00:30</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/css/bootstrap.min.css">
+      <publishTime>11/15/2018 09:55:31</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/css/offcanvas.min.css">
+      <publishTime>11/15/2018 09:55:32</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/css/owl.carousel.css">
+      <publishTime>11/15/2018 09:55:32</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/css/owl.theme.default.min.css">
+      <publishTime>11/15/2018 09:55:32</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/css/style.css">
+      <publishTime>11/15/2018 09:55:32</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/.DS_Store">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/css/font-awesome.css">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/fonts/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/15/2018 10:07:07</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/ajax-loader.gif">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/category.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/fb.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-ad.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-ad2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-author.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-author1.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-author2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-carousel1.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-carousel2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category3.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category4.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category5.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category6.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-category7.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-hockey.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list3.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list4.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list5.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list6.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list7.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list8.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-list9.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-menu-arrow.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-news.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-news1.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-news2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-news___.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-single-ad.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-single.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img-sitebar.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_ad.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_feature.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_feature2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_feature_news.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_feature_news3.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/img_hockey.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/logo.png">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/owl.video.play.png">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/video-thumb.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/video.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/video2.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/img/video3.jpg">
+      <publishTime>11/15/2018 09:58:24</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/js/bootstrap.min.js">
+      <publishTime>11/15/2018 09:57:00</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/js/jquery.min.js">
+      <publishTime>11/15/2018 09:57:00</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/js/offcanvas.min.js">
+      <publishTime>11/15/2018 09:57:00</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/js/owl.carousel.js">
+      <publishTime>11/15/2018 09:57:00</publishTime>
+    </File>
+    <File Include="Content/TeamsSiteContent/assets/js/script.js">
+      <publishTime>11/15/2018 09:57:00</publishTime>
+    </File>
+    <File Include="ContentSearch/Fields/ImageIndexField.cs">
+      <publishTime>11/13/2018 06:30:39</publishTime>
+    </File>
+    <File Include="ContentSearch/Fields/ItemRelativePathIndexField.cs">
+      <publishTime>11/14/2018 07:30:46</publishTime>
+    </File>
+    <File Include="ContentSearch/Fields/TagsComputedField.cs">
+      <publishTime>11/12/2018 01:07:16</publishTime>
+    </File>
+    <File Include="ContentSearch/Repositories/VenuesRepository.cs">
+      <publishTime>11/13/2018 02:47:04</publishTime>
+    </File>
+    <File Include="Controllers/CommentsController.cs">
+      <publishTime>11/07/2018 11:58:11</publishTime>
+    </File>
+    <File Include="Controllers/HomeController.cs">
+      <publishTime>11/07/2018 01:10:05</publishTime>
+    </File>
+    <File Include="Controllers/NavigationController.cs">
+      <publishTime>11/13/2018 23:39:41</publishTime>
+    </File>
+    <File Include="Controllers/SearchController.cs">
+      <publishTime>11/16/2018 08:19:27</publishTime>
+    </File>
+    <File Include="Controllers/SliderController.cs">
+      <publishTime>11/19/2018 23:40:19</publishTime>
+    </File>
+    <File Include="Controllers/SliderHeroImageController.cs">
+      <publishTime>11/19/2018 02:27:49</publishTime>
+    </File>
+    <File Include="Controllers/SocialNetworkLinksController.cs">
+      <publishTime>11/15/2018 13:45:56</publishTime>
+    </File>
+    <File Include="Controllers/TeamsSearchController.cs">
+      <publishTime>11/19/2018 03:41:38</publishTime>
+    </File>
+    <File Include="Controllers/TeamsSliderController.cs">
+      <publishTime>11/15/2018 22:06:10</publishTime>
+    </File>
+    <File Include="Controllers/TopItemsController.cs">
+      <publishTime>11/15/2018 01:06:43</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/07/2018 04:27:33</publishTime>
+    </File>
+    <File Include="Models/Comment.cs">
+      <publishTime>11/06/2018 12:50:58</publishTime>
+    </File>
+    <File Include="Models/Post.cs">
+      <publishTime>11/05/2018 07:58:36</publishTime>
+    </File>
+    <File Include="Models/Slider.cs">
+      <publishTime>11/03/2018 09:55:09</publishTime>
+    </File>
+    <File Include="Models/VenuePost.cs">
+      <publishTime>11/12/2018 00:25:20</publishTime>
+    </File>
+    <File Include="Models/VenueSearchResultItem.cs">
+      <publishTime>11/11/2018 08:36:43</publishTime>
+    </File>
+    <File Include="Models/VenuesSearchCriteria.cs">
+      <publishTime>11/12/2018 01:35:20</publishTime>
+    </File>
+    <File Include="Models/VenuesSearchResult.cs">
+      <publishTime>11/12/2018 00:28:56</publishTime>
+    </File>
+    <File Include="PipelinesN/PageNotFoundResolver.cs">
+      <publishTime>11/15/2018 07:56:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>10/29/2018 14:16:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/28/2018 15:09:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>10/28/2018 15:09:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.min.js">
+      <publishTime>10/29/2018 14:15:43</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>10/28/2018 15:09:25</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>10/28/2018 15:09:24</publishTime>
+    </File>
+    <File Include="Views/AboutPageLayout.cshtml">
+      <publishTime>10/29/2018 07:05:34</publishTime>
+    </File>
+    <File Include="Views/Comments/NewCommentForm.cshtml">
+      <publishTime>11/07/2018 23:48:11</publishTime>
+    </File>
+    <File Include="Views/HomePageLayout.cshtml">
+      <publishTime>10/29/2018 07:00:02</publishTime>
+    </File>
+    <File Include="Views/Layouts/Default.cshtml">
+      <publishTime>11/19/2018 05:54:59</publishTime>
+    </File>
+    <File Include="Views/Layouts/TeamsDefault-better.cshtml">
+      <publishTime>11/16/2018 02:58:55</publishTime>
+    </File>
+    <File Include="Views/Layouts/TeamsDefault.cshtml">
+      <publishTime>11/16/2018 02:24:49</publishTime>
+    </File>
+    <File Include="Views/Renderings/AboutUsPageBody.cshtml">
+      <publishTime>11/15/2018 12:11:16</publishTime>
+    </File>
+    <File Include="Views/Renderings/Body.cshtml">
+      <publishTime>10/29/2018 15:09:51</publishTime>
+    </File>
+    <File Include="Views/Renderings/Comments.cshtml">
+      <publishTime>11/08/2018 04:48:32</publishTime>
+    </File>
+    <File Include="Views/Renderings/Comments/Comments.cshtml">
+      <publishTime>11/08/2018 04:48:32</publishTime>
+    </File>
+    <File Include="Views/Renderings/Comments/NewCommentForm.cshtml">
+      <publishTime>11/12/2018 01:40:11</publishTime>
+    </File>
+    <File Include="Views/Renderings/DetailsPageBody.cshtml">
+      <publishTime>11/20/2018 05:15:16</publishTime>
+    </File>
+    <File Include="Views/Renderings/FilteredPosts.cshtml">
+      <publishTime>11/08/2018 10:49:33</publishTime>
+    </File>
+    <File Include="Views/Renderings/Footer.cshtml">
+      <publishTime>11/19/2018 05:58:16</publishTime>
+    </File>
+    <File Include="Views/Renderings/Header.cshtml">
+      <publishTime>11/15/2018 12:52:07</publishTime>
+    </File>
+    <File Include="Views/Renderings/HomePageBody.cshtml">
+      <publishTime>11/19/2018 05:58:43</publishTime>
+    </File>
+    <File Include="Views/Renderings/ListPageBody.cshtml">
+      <publishTime>11/20/2018 07:40:29</publishTime>
+    </File>
+    <File Include="Views/Renderings/Navigation.cshtml">
+      <publishTime>11/13/2018 08:01:32</publishTime>
+    </File>
+    <File Include="Views/Renderings/Navigation/LanguageTumbler.cshtml">
+      <publishTime>11/14/2018 08:33:27</publishTime>
+    </File>
+    <File Include="Views/Renderings/Navigation/Navigation.cshtml">
+      <publishTime>11/13/2018 10:56:20</publishTime>
+    </File>
+    <File Include="Views/Renderings/Post.cshtml">
+      <publishTime>11/01/2018 12:54:36</publishTime>
+    </File>
+    <File Include="Views/Renderings/SearchPageBody.cshtml">
+      <publishTime>11/20/2018 02:16:05</publishTime>
+    </File>
+    <File Include="Views/Renderings/SearchPageResults.cshtml">
+      <publishTime>11/20/2018 02:11:10</publishTime>
+    </File>
+    <File Include="Views/Renderings/Slider.cshtml">
+      <publishTime>11/20/2018 05:32:30</publishTime>
+    </File>
+    <File Include="Views/Renderings/TopItems.cshtml">
+      <publishTime>11/20/2018 08:23:09</publishTime>
+    </File>
+    <File Include="Views/Renderings/venues404.cshtml">
+      <publishTime>11/19/2018 07:49:58</publishTime>
+    </File>
+    <File Include="Views/Renderings/Web.config">
+      <publishTime>11/02/2018 09:04:32</publishTime>
+    </File>
+    <File Include="Views/TeamsRenderings/SearchPageBody.cshtml">
+      <publishTime>11/19/2018 03:19:04</publishTime>
+    </File>
+    <File Include="Views/TeamsRenderings/SearchPageResults.cshtml">
+      <publishTime>11/19/2018 04:21:24</publishTime>
+    </File>
+    <File Include="Views/TeamsRenderings/SocialNetworkLinksRendering.cshtml">
+      <publishTime>11/16/2018 02:18:22</publishTime>
+    </File>
+    <File Include="Views/TeamsRenderings/SocialNetworksRendering.cshtml">
+      <publishTime>11/15/2018 13:32:34</publishTime>
+    </File>
+    <File Include="Views/TeamsRenderings/TeamsSlider.cshtml">
+      <publishTime>11/15/2018 12:04:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/20/2018 03:27:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

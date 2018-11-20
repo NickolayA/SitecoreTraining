@@ -1,0 +1,50 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model MySite.Models.Post
+
+
+<div class="container">
+
+    @Html.Glass().RenderImage(post => post.Image)
+    <div class="card-body">
+
+        <h1 class="card-title">@Html.Glass().Editable(post => post.Title)</h1>
+        <p class="card-text">@Html.Glass().Editable(post => post.Body)</p>
+        <p class="card-text">@Html.Glass().Editable(post => post.Category.Category)</p>
+
+
+        <p>Tags:</p>
+
+        @if (Model.Tags != null && Model.Tags.Any())
+        {
+            <ul>
+                @foreach (var tag in Model.Tags)
+                {
+                    <li>@tag.Tag</li>
+                }
+            </ul>
+        }
+
+    </div>
+
+
+    <div class="container">
+        <div class="row bootstrap snippets">
+            <div class="col-md-6 col-md-offset-2 col-sm-12">
+                <div class="comment-wrapper">
+                    <div class="panel panel-info">
+
+                        <div class="panel-body">
+
+                            @Html.Sitecore().Placeholder("newcommentform")
+                            <div id="comments">
+                                @Html.Sitecore().Placeholder("comments")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
