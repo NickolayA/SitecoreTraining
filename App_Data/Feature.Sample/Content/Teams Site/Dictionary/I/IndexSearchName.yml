@@ -1,0 +1,22 @@
+﻿---
+ID: "6d8e02b3-a30e-4815-8eee-4480b1bfa616"
+Parent: "170a2132-53ca-46c0-b11b-bd543ca95788"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/content/Teams Site/Dictionary/I/IndexSearchName
+DB: master
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: searchpageindexname
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: teams_web_index
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T154634Z

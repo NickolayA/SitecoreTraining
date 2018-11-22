@@ -1,0 +1,21 @@
+﻿---
+ID: "35862ba1-9843-43ec-a795-0abd565ab303"
+Parent: "f91f092b-393f-4f40-840c-60ea34ffadf5"
+Template: "1069811c-e2f1-49b6-a1dd-2158efd6f89b"
+Path: /sitecore/content/Teams Site/Data Sources/PostTagsDataSource/Last news
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T103236Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7a735a48-1cc8-41e0-9c62-10b35f08b8f5"
+      Hint: Tag
+      Value: Last news

@@ -1,0 +1,20 @@
+﻿---
+ID: "f9a74dfd-006a-4c77-807f-9df01eb16ef3"
+Parent: "ba4d12ad-f6f4-424b-be3d-9cc0073f8be5"
+Template: "c00e2579-eee6-49ea-afc2-02eaef13990a"
+Path: /sitecore/content/Teams Site/Data Sources/Select Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22427928-599d-4161-b8e0-034c209a6239"
+      Hint: Images
+      Type: Multilist
+      Value: |
+        {BED3311D-FDCD-438E-BC41-BD9B125212AD}
+        {F8303F51-4629-46F4-A974-0BB51F34854C}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T185001Z

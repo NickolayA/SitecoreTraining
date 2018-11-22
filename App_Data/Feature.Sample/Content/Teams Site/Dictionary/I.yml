@@ -1,0 +1,14 @@
+﻿---
+ID: "170a2132-53ca-46c0-b11b-bd543ca95788"
+Parent: "3f897357-4cdd-4b9e-83cc-53c3fea6c83c"
+Template: "267d9ac7-5d85-4e9d-af89-99ab296cc218"
+Path: /sitecore/content/Teams Site/Dictionary/I
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T154615Z

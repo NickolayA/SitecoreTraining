@@ -1,0 +1,14 @@
+﻿---
+ID: "f91f092b-393f-4f40-840c-60ea34ffadf5"
+Parent: "ba4d12ad-f6f4-424b-be3d-9cc0073f8be5"
+Template: "242cd4a7-a826-4ca1-9cf2-4b076bff16d6"
+Path: /sitecore/content/Teams Site/Data Sources/PostTagsDataSource
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T103152Z

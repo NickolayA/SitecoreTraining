@@ -1,0 +1,26 @@
+﻿---
+ID: "7a02a2dd-7d48-45c7-8e9b-5a3d911b76b0"
+Parent: "0314a71c-af91-43ea-9890-bf835b952dbf"
+Template: "bd8a9d05-7013-4e1e-af4f-b0c289525e36"
+Path: /sitecore/content/Teams Site/Data Sources/SocialNetworkSelector/Facebook
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15911712-a5fa-414b-b631-f3b6cb0b7bbb"
+      Hint: Logo
+      Value: |
+        <image mediaid="{FCE3FC40-3536-47A1-A1B6-BB7AAB1E2CE8}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T144409Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ddc82334-842c-40ef-8cb6-af409358d3a2"
+      Hint: Link
+      Value: |
+        <link text="https://www.facebook.com/" linktype="external" url="https://www.facebook.com/" anchor="" target="" />

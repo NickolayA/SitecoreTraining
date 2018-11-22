@@ -1,0 +1,49 @@
+﻿---
+ID: "bc08bbf2-0099-4d13-a9a0-85c502437839"
+Parent: "d737fa54-c4a0-4148-a46a-38bc1043a93f"
+Template: "016a01c4-7cc5-45e4-853d-8180bab31fce"
+Path: /sitecore/content/Teams Site/Home
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/flatscreen_tv.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CDDF9FC5-05B5-4563-92F1-EFCD8FC6EEE9}
+    {57235F74-B69B-4F58-96CE-018CEDDAB060}
+    {47B3F842-C2B5-4B99-B3DD-9FFCF6F45EDD}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F760035D-20D2-4454-A9F1-1262FD29A252}"
+          s:ds="{0314A71C-AF91-43EA-9890-BF835B952DBF}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09929c69-010a-4b3f-8dad-402dd72058e8"
+      Hint: Show in navigation name
+      Value: Teams Home
+    - ID: "23e2541f-894e-456c-a3c9-3e8363998071"
+      Hint: Show in navigation
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T202736Z
+    - ID: "2e0e123b-3979-401c-be9a-0ab397599818"
+      Hint: Home Page Name
+      Value: Home

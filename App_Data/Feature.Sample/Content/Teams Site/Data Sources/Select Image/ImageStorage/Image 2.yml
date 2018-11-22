@@ -1,0 +1,23 @@
+﻿---
+ID: "f8303f51-4629-46f4-a974-0bb51f34854c"
+Parent: "802d7022-12dc-48cf-a7fb-8d4206d525ae"
+Template: "97c036d2-3628-4f8e-b5fc-73e9cd52edf8"
+Path: /sitecore/content/Teams Site/Data Sources/Select Image/ImageStorage/Image 2
+DB: master
+SharedFields:
+- ID: "4696fc70-d0ee-4181-accb-35077d83a724"
+  Hint: Slider Image
+  Value: |
+    <image mediaid="{0AE7A1DD-8B8A-40B9-B95D-0330E41E3E5F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T185318Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

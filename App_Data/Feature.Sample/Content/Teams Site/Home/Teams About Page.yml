@@ -1,0 +1,39 @@
+﻿---
+ID: "b516ad16-ea2c-450f-a052-7f3f61c55e62"
+Parent: "bc08bbf2-0099-4d13-a9a0-85c502437839"
+Template: "cddf9fc5-05b5-4563-92f1-efcd8fc6eee9"
+Path: /sitecore/content/Teams Site/Home/Teams About Page
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D12B152E-BD61-44C0-AA11-68E6E5172FA4}"
+          s:ds="{0314A71C-AF91-43EA-9890-BF835B952DBF}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09929c69-010a-4b3f-8dad-402dd72058e8"
+      Hint: Show in navigation name
+      Value: About Teams
+    - ID: "23e2541f-894e-456c-a3c9-3e8363998071"
+      Hint: Show in navigation
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T201059Z
+    - ID: "97e53d1e-d220-4402-bfaf-698239590a7e"
+      Hint: About Page Name
+      Value: Teams About Page

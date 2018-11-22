@@ -1,0 +1,24 @@
+﻿---
+ID: "3b01d8a3-524a-4dfb-ad48-51cf92b12ae3"
+Parent: "dcf9d2a1-04a9-4bc3-9cda-922237b213cf"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/TeamsRenderings/TeamsSlider
+DB: master
+SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{C3A3FFF7-9A0D-4B04-8405-0A287E544BFB}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: ShowSlider
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: TeamsSlider
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T184128Z

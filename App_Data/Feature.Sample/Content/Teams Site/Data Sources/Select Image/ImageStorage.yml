@@ -1,0 +1,14 @@
+﻿---
+ID: "802d7022-12dc-48cf-a7fb-8d4206d525ae"
+Parent: "f9a74dfd-006a-4c77-807f-9df01eb16ef3"
+Template: "aecd3140-f3b9-4f6c-a23d-8409875a9a24"
+Path: /sitecore/content/Teams Site/Data Sources/Select Image/ImageStorage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T185009Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "3f897357-4cdd-4b9e-83cc-53c3fea6c83c"
+Parent: "d737fa54-c4a0-4148-a46a-38bc1043a93f"
+Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
+Path: /sitecore/content/Teams Site/Dictionary
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/32x32/dictionary.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T154552Z

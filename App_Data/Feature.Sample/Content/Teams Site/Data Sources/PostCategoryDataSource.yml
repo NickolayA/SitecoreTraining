@@ -1,0 +1,14 @@
+﻿---
+ID: "8e26a18c-0f05-4b58-8cfa-f6aa52b6eada"
+Parent: "ba4d12ad-f6f4-424b-be3d-9cc0073f8be5"
+Template: "ff76719a-a2af-4a21-962b-9589e92ebb70"
+Path: /sitecore/content/Teams Site/Data Sources/PostCategoryDataSource
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T103059Z

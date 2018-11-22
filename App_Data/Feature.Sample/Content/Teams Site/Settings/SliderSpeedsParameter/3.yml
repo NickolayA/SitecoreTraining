@@ -1,0 +1,21 @@
+﻿---
+ID: "9468dace-efcf-481d-a163-8b4d1eac33bc"
+Parent: "be0cd8dc-8240-47c5-93ab-8cbfaf7215ce"
+Template: "ea2cf789-084a-4d78-9465-771b0992134e"
+Path: /sitecore/content/Teams Site/Settings/SliderSpeedsParameter/3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T190323Z
+    - ID: "30f88505-b332-43af-aa68-d631718c73bd"
+      Hint: SpeedNum
+      Value: 3000
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

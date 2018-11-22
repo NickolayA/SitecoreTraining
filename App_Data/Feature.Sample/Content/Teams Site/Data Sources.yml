@@ -1,0 +1,34 @@
+﻿---
+ID: "ba4d12ad-f6f4-424b-be3d-9cc0073f8be5"
+Parent: "d737fa54-c4a0-4148-a46a-38bc1043a93f"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Teams Site/Data Sources
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/data_copy.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {493B4A25-DD1E-41EB-8E3D-57B52BD80CC1}
+    {C00E2579-EEE6-49EA-AFC2-02EAEF13990A}
+    {FF76719A-A2AF-4A21-962B-9589E92EBB70}
+    {242CD4A7-A826-4CA1-9CF2-4B076BFF16D6}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T184713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

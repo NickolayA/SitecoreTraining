@@ -1,0 +1,14 @@
+﻿---
+ID: "39c7b000-2ee3-4346-a819-e2183a314d19"
+Parent: "abadc5fb-10be-4eaa-a82a-d95cd8832475"
+Template: "4ad14794-1079-4d39-b752-f956085dfcf9"
+Path: /sitecore/content/Teams Site/Settings/Slider setting
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T190148Z

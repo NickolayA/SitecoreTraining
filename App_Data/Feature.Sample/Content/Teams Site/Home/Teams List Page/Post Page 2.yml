@@ -1,0 +1,36 @@
+﻿---
+ID: "386146f4-f3b8-496c-a6f3-8e691166f659"
+Parent: "dac66298-34b0-4a56-a347-f5f289c04f02"
+Template: "5571dd11-58db-4396-b66d-e64c8f2c7861"
+Path: /sitecore/content/Teams Site/Home/Teams List Page/Post Page 2
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DAE7D816-0E91-4015-9DB6-41146741A6C0}"
+          s:ds="{0314A71C-AF91-43EA-9890-BF835B952DBF}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d2a135a-dcdf-4e2c-971f-02922c8a6b58"
+      Hint: Tags
+      Type: Multilist
+      Value: "{35862BA1-9843-43EC-A795-0ABD565AB303}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T063852Z
+    - ID: "693a1775-6879-4f57-8025-38d51cd50bb0"
+      Hint: Category
+      Value: "{AA9A279D-EEA8-453A-A227-6BD8A108FF6A}"

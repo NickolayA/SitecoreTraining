@@ -1,0 +1,18 @@
+﻿---
+ID: "0314a71c-af91-43ea-9890-bf835b952dbf"
+Parent: "ba4d12ad-f6f4-424b-be3d-9cc0073f8be5"
+Template: "493b4a25-dd1e-41eb-8e3d-57b52bd80cc1"
+Path: /sitecore/content/Teams Site/Data Sources/SocialNetworkSelector
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181121T144354Z
+    - ID: "b200f741-cbe4-45e6-8d5d-69ae35bfcaf3"
+      Hint: SocialNetworks
+      Type: Multilist
+      Value: "{7A02A2DD-7D48-45C7-8E9B-5A3D911B76B0}"

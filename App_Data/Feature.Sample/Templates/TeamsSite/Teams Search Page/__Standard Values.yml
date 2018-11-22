@@ -1,0 +1,45 @@
+﻿---
+ID: "3a51a29e-4da9-4311-b4aa-44db63702985"
+Parent: "47b3f842-c2b5-4b99-b3dd-9ffcf6f45edd"
+Template: "47b3f842-c2b5-4b99-b3dd-9ffcf6f45edd"
+Path: /sitecore/templates/TeamsSite/Teams Search Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{83AD8D37-1518-42FF-9C49-E8CE2C6F032A}">
+        <r
+          id="{42F45D6D-E8C0-4AA2-9B94-E6284F799E6E}"
+          ph="header"
+          uid="{9B8785F8-D620-435E-9C9E-FC12A2C555F7}" />
+        <r
+          id="{B2FC564B-B5CB-4E15-8700-D00AF0ED1B93}"
+          ph="footer"
+          uid="{E56B4C0D-47AE-413B-8696-E43F049810EC}" />
+        <r
+          id="{A07BE6CB-9A75-4C43-884D-B6BF55BD2658}"
+          ph="navigation"
+          uid="{51DB6176-0DEE-45A5-BFE9-E668177EA3A5}" />
+        <r
+          id="{6982D6DB-DF95-4F83-8C97-6F01F6B17856}"
+          ph="socialnetworks"
+          uid="{04764DD2-BC5F-45CE-BA59-199552136D58}" />
+        <r
+          id="{2C842B6A-542F-4230-BE5C-52EAE7679A23}"
+          ph="body"
+          uid="{8C7EE149-770F-4BC0-B08A-363E31A917E1}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T094954Z

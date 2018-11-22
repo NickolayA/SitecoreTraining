@@ -1,0 +1,25 @@
+﻿---
+ID: "64d78b34-ece7-47ed-a9fe-0b12c05ac780"
+Parent: "dac66298-34b0-4a56-a347-f5f289c04f02"
+Template: "5571dd11-58db-4396-b66d-e64c8f2c7861"
+Path: /sitecore/content/Teams Site/Home/Teams List Page/Post Page 3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181122T141739Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ce2

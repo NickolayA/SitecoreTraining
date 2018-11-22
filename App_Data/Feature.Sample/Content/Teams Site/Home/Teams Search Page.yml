@@ -1,0 +1,47 @@
+﻿---
+ID: "738f6a6a-9cac-4b9e-8929-a92c89626a2d"
+Parent: "bc08bbf2-0099-4d13-a9a0-85c502437839"
+Template: "47b3f842-c2b5-4b99-b3dd-9ffcf6f45edd"
+Path: /sitecore/content/Teams Site/Home/Teams Search Page
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{04764DD2-BC5F-45CE-BA59-199552136D58}"
+          s:ds="{0314A71C-AF91-43EA-9890-BF835B952DBF}"
+          s:par="" />
+        <r
+          uid="{8C7EE149-770F-4BC0-B08A-363E31A917E1}">
+          <p:d />
+        </r>
+        <r
+          uid="{60A1320D-9D7C-47AC-82E9-38FB4C465659}"
+          p:after="*[1=2]"
+          s:ds="{6D1B14D5-8CD2-48EF-A147-8388A49F9CC9}"
+          s:id="{2C842B6A-542F-4230-BE5C-52EAE7679A23}"
+          s:par=""
+          s:ph="body" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "09929c69-010a-4b3f-8dad-402dd72058e8"
+      Hint: Show in navigation name
+      Value: Search Teams
+    - ID: "23e2541f-894e-456c-a3c9-3e8363998071"
+      Hint: Show in navigation
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T095111Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "6d1b14d5-8cd2-48ef-a147-8388a49f9cc9"
+Parent: "abadc5fb-10be-4eaa-a82a-d95cd8832475"
+Template: "24279a9a-0996-4c85-b671-7421039c95e8"
+Path: /sitecore/content/Teams Site/Settings/TeamsPostsPaginationParameter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T105757Z

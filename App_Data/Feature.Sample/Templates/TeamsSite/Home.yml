@@ -1,0 +1,59 @@
+﻿---
+ID: "016a01c4-7cc5-45e4-853d-8180bab31fce"
+Parent: "8c3282d0-69d5-4cbf-ba1c-743a5af04a8d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TeamsSite/Home
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/flatscreen_tv.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{D9C39191-D37C-4C2F-AB16-AC764FD69EE8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{C499591B-0401-4BAD-BC0C-AE750B38D3DC}">
+        <r
+          id="{42F45D6D-E8C0-4AA2-9B94-E6284F799E6E}"
+          ph="header"
+          uid="{E1936266-C162-4E15-B5A6-028CAE881A5F}" />
+        <r
+          id="{B2FC564B-B5CB-4E15-8700-D00AF0ED1B93}"
+          ph="footer"
+          uid="{0AD00785-273F-4FBC-9596-BFB215FFB617}" />
+        <r
+          id="{A07BE6CB-9A75-4C43-884D-B6BF55BD2658}"
+          ph="navigation"
+          uid="{CF14E2C2-0743-4E59-B7DC-018AF6F9E191}" />
+        <r
+          id="{6937C555-9107-45F2-B65C-4B66D32D6ECB}"
+          ph="body"
+          uid="{D20783E4-F1F6-4176-94FC-9A809153204E}" />
+        <r
+          id="{6982D6DB-DF95-4F83-8C97-6F01F6B17856}"
+          ph="socialnetworks"
+          uid="{DD3E40E5-2E75-49F2-9E95-FDDED1D6727D}" />
+      </d>
+    </r>
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{95BB238F-90B8-493A-9613-9E91AA57335E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T202502Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

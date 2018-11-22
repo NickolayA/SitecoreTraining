@@ -1,0 +1,18 @@
+﻿---
+ID: "5d6e20c4-b3d7-4457-9638-6e7ce621d06b"
+Parent: "bd8a9d05-7013-4e1e-af4f-b0c289525e36"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/TeamsSite/Data Sources Elements/SocialNetworkInfo/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T203602Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

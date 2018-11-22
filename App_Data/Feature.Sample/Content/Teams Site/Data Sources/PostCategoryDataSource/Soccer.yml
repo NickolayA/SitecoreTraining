@@ -1,0 +1,21 @@
+﻿---
+ID: "aa9a279d-eea8-453a-a227-6bd8a108ff6a"
+Parent: "8e26a18c-0f05-4b58-8cfa-f6aa52b6eada"
+Template: "9f05a6f7-4778-4e91-b3f6-24e62c3b6dcf"
+Path: /sitecore/content/Teams Site/Data Sources/PostCategoryDataSource/Soccer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181116T103113Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ab6b84e2-7a9b-47bf-aea9-b71800ff5a82"
+      Hint: Category
+      Value: Soccer
