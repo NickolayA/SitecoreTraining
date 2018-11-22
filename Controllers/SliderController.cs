@@ -14,7 +14,8 @@ namespace MySite.Controllers
     {
         public ActionResult ShowSlider()
         {
-            Thread.Sleep(100000);
+            //throw new Exception("I'm exception from SliderController");
+            Thread.Sleep(10000);
             var rc = RenderingContext.CurrentOrNull;
 
             MultilistField multilistField = rc.Rendering.Item.Fields["Images"];

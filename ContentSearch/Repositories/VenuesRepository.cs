@@ -13,15 +13,25 @@ namespace MySite.ContentSearch.Repositories
     public class VenuesRepository : IPostsRepository
     {
 
-        private readonly string IndexName = $"mysite_web_index";
-        //private readonly string IndexName;
+        private readonly string IndexName;
+    
         private ISearchIndex _index;
 
-        private ISearchIndex Index => _index ?? (_index = ContentSearchManager.GetIndex(IndexName));
+        private ISearchIndex Index; //=> _index ?? (_index = ContentSearchManager.GetIndex(IndexName));
 
         private IProviderSearchContext _context;
 
-        private IProviderSearchContext Context => _context ?? (_context = Index.CreateSearchContext());
+        private IProviderSearchContext Context;// => _context ?? (_context = Index.CreateSearchContext());
+
+        public VenuesRepository()
+        {
+            //IndexName = $"mysite_web_index";
+            //throw new Exception(Sitecore.Globalization.Translate.Text("searchpageindexname"));
+            //throw new Exception(Sitecore.Globalization.Translate.Text("searchpageindexname"));
+            IndexName = Sitecore.Globalization.Translate.Text("searchpageindexname");
+            Index = _index ?? (_index = ContentSearchManager.GetIndex(IndexName));
+            Context = _context ?? (_context = Index.CreateSearchContext());
+        }
 
 
         public SearchResults<VenueSearchResultItem> Get(VenuesSearchCriteria args)

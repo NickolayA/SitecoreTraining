@@ -135,8 +135,50 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
       <publishTime>11/20/2018 02:23:25</publishTime>
     </File>
+    <File Include="App_Config/Include/Rainbow.config">
+      <publishTime>11/20/2018 10:28:31</publishTime>
+    </File>
     <File Include="App_Config/Include/Sitecore.ContentSearch.Solr.Index.Web.config">
       <publishTime>06/04/2018 06:05:50</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.AutoPublish.config">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.config">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Default.config">
+      <publishTime>11/20/2018 12:05:25</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config.example">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.DataProvider.config">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Dilithium.config.example">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.PowerShell.config">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Remote.config.disabled">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.UI.config">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.UI.DeployedContentEditorWarnings.config.disabled">
+      <publishTime>11/20/2018 10:28:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.zSharedSecret.config.example">
+      <publishTime>11/20/2018 10:28:33</publishTime>
     </File>
     <File Include="App_Config/Include/z.Friday.Solr.CustomConfiguration.config">
       <publishTime>11/10/2018 15:00:37</publishTime>
@@ -160,7 +202,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/19/2018 03:55:41</publishTime>
     </File>
     <File Include="App_Config/Include/z.Sitecore.config">
-      <publishTime>11/20/2018 01:25:25</publishTime>
+      <publishTime>11/21/2018 07:47:22</publishTime>
     </File>
     <File Include="App_Config/Include/z.Sitecore.NewPostCreationEventHandler.config">
       <publishTime>11/20/2018 06:46:07</publishTime>
@@ -837,6 +879,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Castle.Core.dll">
       <publishTime>11/06/2014 02:14:08</publishTime>
     </File>
+    <File Include="bin/Configy.dll">
+      <publishTime>06/07/2017 21:46:50</publishTime>
+    </File>
     <File Include="bin/Glass.Mapper.dll">
       <publishTime>12/19/2017 14:33:58</publishTime>
     </File>
@@ -845,6 +890,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
       <publishTime>12/19/2017 14:34:00</publishTime>
+    </File>
+    <File Include="bin/Kamsar.WebConsole.dll">
+      <publishTime>04/28/2017 12:58:36</publishTime>
+    </File>
+    <File Include="bin/MicroCHAP.dll">
+      <publishTime>10/11/2016 12:51:56</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -856,13 +907,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/MySite.dll">
-      <publishTime>11/20/2018 08:16:45</publishTime>
+      <publishTime>11/22/2018 02:00:35</publishTime>
     </File>
     <File Include="bin/MySite.pdb">
-      <publishTime>11/20/2018 08:16:45</publishTime>
+      <publishTime>11/22/2018 02:00:35</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/Rainbow.dll">
+      <publishTime>08/08/2018 20:52:40</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Sc.dll">
+      <publishTime>08/08/2018 20:52:40</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Yaml.dll">
+      <publishTime>08/08/2018 20:52:40</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -1055,6 +1115,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
       <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/Unicorn.dll">
+      <publishTime>08/09/2018 14:42:46</publishTime>
     </File>
     <File Include="Content/blog-home.css">
       <publishTime>10/29/2018 14:00:10</publishTime>
@@ -1564,13 +1627,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/20/2018 02:16:05</publishTime>
     </File>
     <File Include="Views/Renderings/SearchPageResults.cshtml">
-      <publishTime>11/20/2018 02:11:10</publishTime>
+      <publishTime>11/21/2018 08:04:39</publishTime>
     </File>
     <File Include="Views/Renderings/Slider.cshtml">
       <publishTime>11/20/2018 05:32:30</publishTime>
     </File>
     <File Include="Views/Renderings/TopItems.cshtml">
-      <publishTime>11/20/2018 08:23:09</publishTime>
+      <publishTime>11/20/2018 08:24:24</publishTime>
     </File>
     <File Include="Views/Renderings/venues404.cshtml">
       <publishTime>11/19/2018 07:49:58</publishTime>
@@ -1594,7 +1657,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/15/2018 12:04:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/20/2018 03:27:28</publishTime>
+      <publishTime>11/20/2018 11:49:52</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -94,3 +94,10 @@ C:\Users\Administrator\source\repos\MySite\MySite\bin\Castle.Core.xml
 C:\Users\Administrator\source\repos\MySite\MySite\bin\Glass.Mapper.xml
 C:\Users\Administrator\source\repos\MySite\MySite\bin\Glass.Mapper.Sc.xml
 C:\Users\Administrator\source\repos\MySite\MySite\bin\Glass.Mapper.Sc.Mvc.xml
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Configy.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Kamsar.WebConsole.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\MicroCHAP.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Rainbow.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Rainbow.Storage.Sc.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Rainbow.Storage.Yaml.dll
+C:\Users\Administrator\source\repos\MySite\MySite\bin\Unicorn.dll

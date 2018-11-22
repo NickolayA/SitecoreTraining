@@ -21,7 +21,6 @@ namespace MySite.Controllers
         public ActionResult ListAllItems(string s = null)
         {
             var itemsModel = new List<Post>();
-            // self:://*[(@@templatename='Details Page' or @@templatename='Post Page') and contains(@Post title, '{0}']
             var queryPostWithTitle = String.Format("{0}//*[@@templatename='Details Page' or @@templatename='Post Page' and contains(@Post title, '{1}')]", Sitecore.Context.Site.RootPath.Replace("-", "#-#"), s != null ? s : "");
 
             var itemsToModel = ContextItem.Database.SelectItems(queryPostWithTitle);

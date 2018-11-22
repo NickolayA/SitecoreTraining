@@ -11,7 +11,7 @@
                 <img class="card-img-top" style="width: 750px; height: 300px;" src="@item.ImagePath" />
                 <div class="card-body">
                     <h2 class="card-title">@item.Title</h2>
-                    <p class="card-text">@item.Body.Substring(0, 150)...</p>
+                    <p class="card-text">@item.Body</p>
                     <p class="card-text">Category: @item.Category</p>
                     <p class="card-text">@(item.Tags != null ? "Tags: " + String.Join(", ", @item.Tags.ToArray()) : null)</p>
                     <a href="@item.ItemUrl" class="btn btn-primary">@Sitecore.Globalization.Translate.Text("Show post")</a>

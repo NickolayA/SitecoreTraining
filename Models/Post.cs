@@ -18,7 +18,7 @@ namespace MySite.Models
         [SitecoreField("Post body")]
         public virtual string Body { get; set; }
         [SitecoreField("Post image")]
-        public virtual Glass.Mapper.Sc.Fields.Image Image { get; set; }
+        public virtual Image Image { get; set; }
         public virtual CategoryItem Category { get; set; }
         public virtual IEnumerable<TagItem> Tags { get; set; }
 

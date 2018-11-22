@@ -13,6 +13,7 @@ namespace MySite.Controllers.TeamsControllers
     {
         public ActionResult ShowSlider()
         {
+            throw new Exception("I'm exception from TeamsSite");
             var rc = RenderingContext.CurrentOrNull;
 
             MultilistField multilistField = rc.Rendering.Item.Fields["Images"];

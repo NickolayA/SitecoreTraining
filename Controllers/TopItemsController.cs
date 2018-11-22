@@ -1,4 +1,5 @@
-﻿using Glass.Mapper.Sc.IoC;
+﻿using Glass.Mapper.Sc;
+using Glass.Mapper.Sc.IoC;
 using Glass.Mapper.Sc.Web.Mvc;
 using MySite.Models;
 using Sitecore.Data;
@@ -12,13 +13,21 @@ namespace MySite.Controllers
 {
     public class TopItemsController : GlassController
     {
+        private ISitecoreContext context;
+
+        public TopItemsController(ISitecoreContext context)
+        {
+            this.context = context;
+        }
+
         public ActionResult TopListRendering()
         {
             MultilistField posts = DataSourceItem.Fields["Top Posts"];
 
             var postsViewModel = new List<Post>();
 
-            Database database = Sitecore.Context.Database;
+            //Database database = Sitecore.Context.Database;
+            Database database = context.Database;
 
 
             foreach (string itemId in posts)
